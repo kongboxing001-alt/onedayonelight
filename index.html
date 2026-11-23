@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark"><title>One Day, One Light</title><style>
+:root{--bg:#FAF7F0;--surface:#EFE9DC;--ink:#3D372D;--soft:#6E6555;--accent:#86693A;--line:#E2DACB}
+@media (prefers-color-scheme:dark){:root{--bg:#2E3329;--surface:#3A4034;--ink:#ECEFE4;--soft:#B8BEAE;--accent:#B9C4A6;--line:#454C3E}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 "Iowan Old Style","Palatino","Georgia","Songti SC","Noto Serif CJK SC",serif}
+.wrap{max-width:640px;margin:0 auto;padding:40px 20px 64px}
+nav.langs{display:flex;flex-wrap:wrap;gap:6px 14px;font:14px/1.6 -apple-system,system-ui,sans-serif;margin-bottom:48px}
+nav.langs a{color:var(--soft);text-decoration:none;padding:2px 0;border-bottom:1px solid transparent}
+nav.langs a[aria-current=true]{color:var(--accent);border-bottom-color:var(--accent)}
+.app{font:13px/1.4 -apple-system,system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+h1{font-size:34px;line-height:1.25;font-weight:500;margin:0 0 8px}
+.date{font:14px/1.5 -apple-system,system-ui,sans-serif;color:var(--soft);margin:0 0 28px}
+.lead{font-size:20px;line-height:1.6;margin:0 0 36px;padding:20px 22px;background:var(--surface);border-radius:14px}
+h2{font-size:19px;font-weight:600;margin:32px 0 6px}
+p{margin:0}
+.contact{margin-top:44px;padding-top:24px;border-top:1px solid var(--line)}
+.contact a,.foot a{color:var(--accent)}
+.foot{margin-top:28px;font:14px/1.6 -apple-system,system-ui,sans-serif;color:var(--soft)}
+.tbd{color:#9A5B3C;font-style:italic}
+section[lang]{display:none}
+section[lang].on{display:block}
+.nojs section[lang]{display:block;margin-bottom:72px}
+</style></head>
+<body><div class="wrap"><p class="app">One Day, One Light</p><h1>一日一光</h1>
+<p class="lead">One verse a day, in two languages, for the whole family to read together.</p>
+<p><a style="color:var(--accent)" href="support.html">Support</a> &nbsp;·&nbsp; <a style="color:var(--accent)" href="privacy.html">Privacy Policy</a></p>
+</div></body></html>
